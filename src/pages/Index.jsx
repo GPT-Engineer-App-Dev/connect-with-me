@@ -7,10 +7,10 @@ const Index = () => {
     <Container maxW="container.xl" p={0}>
       <Box as="nav" bg="gray.800" color="white" py={4}>
         <HStack spacing={8} justify="center">
-          <Link as={RouterLink} to="#about" _hover={{ textDecoration: "none", color: "gray.400" }}>About Me</Link>
-          <Link as={RouterLink} to="#projects" _hover={{ textDecoration: "none", color: "gray.400" }}>Projects</Link>
-          <Link as={RouterLink} to="#blog" _hover={{ textDecoration: "none", color: "gray.400" }}>Blog</Link>
-          <Link as={RouterLink} to="#contact" _hover={{ textDecoration: "none", color: "gray.400" }}>Contact</Link>
+          <Link href="#about" _hover={{ textDecoration: "none", color: "gray.400" }}>About Me</Link>
+          <Link href="#projects" _hover={{ textDecoration: "none", color: "gray.400" }}>Projects</Link>
+          <Link href="#blog" _hover={{ textDecoration: "none", color: "gray.400" }}>Blog</Link>
+          <Link href="#contact" _hover={{ textDecoration: "none", color: "gray.400" }}>Contact</Link>
         </HStack>
       </Box>
 
