@@ -1,5 +1,4 @@
 import { Container, VStack, Box, Heading, Text, Image, SimpleGrid, Link, FormControl, FormLabel, Input, Textarea, Button, HStack } from "@chakra-ui/react";
-import { Link as RouterLink } from "react-router-dom";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Index = () => {
