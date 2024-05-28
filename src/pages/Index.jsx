@@ -8,10 +8,10 @@ const Index = () => {
         <Flex justify="space-between" align="center" px={8}>
           <Heading as="h1" size="lg">My Personal Website</Heading>
           <Flex as="nav" gap={4}>
-            <Link as={RouterLink} to="#about" _hover={{ textDecoration: "none", color: "gray.400" }}>About Me</Link>
-            <Link as={RouterLink} to="#projects" _hover={{ textDecoration: "none", color: "gray.400" }}>Projects</Link>
-            <Link as={RouterLink} to="#blog" _hover={{ textDecoration: "none", color: "gray.400" }}>Blog</Link>
-            <Link as={RouterLink} to="#contact" _hover={{ textDecoration: "none", color: "gray.400" }}>Contact</Link>
+            <Link href="#about" _hover={{ textDecoration: "none", color: "gray.400" }}>About Me</Link>
+            <Link href="#projects" _hover={{ textDecoration: "none", color: "gray.400" }}>Projects</Link>
+            <Link href="#blog" _hover={{ textDecoration: "none", color: "gray.400" }}>Blog</Link>
+            <Link href="#contact" _hover={{ textDecoration: "none", color: "gray.400" }}>Contact</Link>
           </Flex>
         </Flex>
       </Box>
